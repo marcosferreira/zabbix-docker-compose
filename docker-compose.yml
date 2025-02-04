@@ -93,4 +93,7 @@ services:
     environment:
       - ZBX_HOSTNAME=Zabbix server
       - ZBX_SERVER_HOST=172.18.0.1
+      - ZBX_JAVAGATEWAY_ENABLE=false
+      - ZBX_JAVAGATEWAY=zabbix-java-gateway
+      - ZBX_JAVAGATEWAYPORT=10052
     
